@@ -1,0 +1,25 @@
+Welcome to my cross platforms (iOS, Android) app development project with Titanium Mobile.
+
+This is a simple "Event Calendar" project to demonstrade best mobile JavaScript programing pratices using CommonJS Modules. 
+
+* object-oriented programing using CommonJS modules mechanism to create self-contained modules.
+
+* structuring code with commonJS modules do more than just packaging your app with namespacing. 
+It also helps you to organize your code, not polluting the global scope, and define your modules dependencies, all of which are not enforced in normal namespacing. 
+
+* develop secure and reusable JavaScript code.
+
+
+Implementation
+--------------
+app.js starting point of the app. Use this file to bootstrap Javascript modules
+
+ui/win.js  user interphase windows, views etc
+
+modules/db.js  handles all local SQLlite database interaction (create tables, insert, select, update, delete)
+
+modules/network.js handles network communication
+
+
+
+
